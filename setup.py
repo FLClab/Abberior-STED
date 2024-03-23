@@ -6,6 +6,7 @@ setup(
     version='0.0.1',
     description="Interface to Imspector control software for Abberior STED microscopes",
     long_description=open("README.md").read(),
+    long_description_content_type='text/markdown',
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved",
@@ -29,5 +30,9 @@ setup(
     ],  # And any other dependencies foo needs
     packages=["abberior"],
     include_package_data=True,
+    project_urls={
+        'Documentation': 'https://github.com/FLClab/Abberior-STED',
+        'Source': 'https://github.com/FLClab/Abberior-STED',
+    },
 )
 # I do not require specpy to be installed
