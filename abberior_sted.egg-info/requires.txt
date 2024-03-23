@@ -1,5 +1,0 @@
-scikit-image
-numpy
-scipy
-matplotlib
-pyyaml
