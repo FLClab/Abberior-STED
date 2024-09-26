@@ -5,6 +5,7 @@ setup(
     name='abberior-sted',
     version='0.0.1',
     description="Interface to Imspector control software for Abberior STED microscopes",
+    author="Anthony Bilodeau; Andréanne Deschênes; Albert Michaud-Gagnon; Paul De Koninck; Christian Gagné; Audrey Durand; Flavie Lavoie-Cardinal",
     long_description=open("README.md").read(),
     long_description_content_type='text/markdown',
     classifiers=[
