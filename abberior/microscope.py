@@ -19,7 +19,7 @@ except (ModuleNotFoundError, RuntimeError) as err:
     print("Calling these functions might raise an error.")
     print("\nFalling back to the debug files...")
 
-    from .debug import Imspector
+    from abberior.debug import Imspector
     im = Imspector()
     measurement = im.active_measurement()
 
